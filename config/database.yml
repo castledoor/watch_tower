@@ -1,0 +1,10 @@
+development:
+  adapter: postgresql
+  database: watch_tower_development
+
+
+test:
+  adapter: postgresql
+  database: watch_tower_test
+
+

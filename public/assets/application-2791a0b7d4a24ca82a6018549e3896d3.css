@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+
+ *= @import "fonts";
+ *= $my_font: 'HappyFox-Condensed'; 
+ */
+
+
+body {
+  background-color: #d2cdb9;
+  text-align: center;
+  margin: 0px;
+  height: 100%;
+  font-family: 'HappyFox-Condensed';
+  overflow: hidden; }
+
+html {
+  margin: 0px;
+  margin-bottom: 0px;
+  font-family: 'HappyFox-Condensed'; }
+
+.instagram {
+  margin-top: -13px;
+  margin-bottom: 60px;
+  margin-left: 198px;
+  border: 5px solid white;
+  -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background: rgba(147, 142, 116, 0.5);
+  position: relative;
+  z-index: 1;
+  width: 582px;
+  height: 582px; }
+
+.container {
+  position: absolute;
+  background-image: url(/assets/tower.png);
+  background-repeat: no-repeat;
+  background-size: 550px 820px;
+  background-position: 56px -6px;
+  margin: 0px;
+  width: 100%;
+  height: 600px%; }
+
+.picture {
+  margin: 0px;
+  margin-bottom: 1px; }
+
+p {
+  margin: 9px;
+  margin-left: 225px;
+  margin-bottom: 0px;
+  font-size: 118px;
+  color: #639aa8;
+  padding-bottom: 20px; }
+/*@font-face{
+    font-family: 'HappyFox-Condensed';
+    src: font-url("HappyFox-Condensed.otf") unquote("format('opentype')");
+    font-weight: normal;
+    font-style: normal;
+}*/
+@font-face {
+  font-family: 'HappyFox-Condensed';
+  src: url("/assets/HappyFox-Condensed.otf") format("opentype"); }

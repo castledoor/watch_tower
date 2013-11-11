@@ -1,0 +1,12 @@
+/*@font-face{
+    font-family: 'HappyFox-Condensed';
+    src: font-url("HappyFox-Condensed.otf") unquote("format('opentype')");
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'HappyFox-Condensed';
+    src: url(font-path('HappyFox-Condensed.otf')) format('opentype');
+
+}

@@ -1,0 +1,7 @@
+== README
+
+This is a instagram screensaver
+
+It makes a slideshow of high res pics , and displays those pics depending on geolocation or a has tag request
+
+It is a work in progress :)
