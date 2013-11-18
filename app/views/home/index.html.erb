@@ -8,7 +8,12 @@ function timedRefresh(timeoutPeriod) {
 	<div class="container">
 		<div class="picture">
 	    <p> WATCH TOWER </p>
-			<%= image_tag(@photo.url, :class => "instagram") %>
+            <% if no_location = false %>
+				<%= image_tag(@photo.url, :class => "instagram") %>
+				<%= @image.geo_code_city %>
+			<% elsif no_location = true %>
+				<%= image_tag(@photo.url, :class => "instagram") %>
+			<% end %>
 		</div>
 	</div>
 </body>
